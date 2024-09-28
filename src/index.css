@@ -13,3 +13,6 @@
   min-height:100vh;
   display: flex;
 }
+body{
+  background-color: rgba(0, 0, 0, 0.938);
+}

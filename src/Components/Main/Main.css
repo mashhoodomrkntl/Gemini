@@ -21,7 +21,7 @@
     margin: auto;
 }
 .main .greet {
-    margin: 50px 0px;
+    margin: 30px 0px;
     font-size: 56px;
     color: #c4c7c5;
     font-weight: 500;
@@ -40,9 +40,9 @@ span {
     padding: 20px;
 }
 .main .card {
-    height: 200px;
+    height: 150px;
     padding: 15px;
-    background-color: #273f5c;
+    background-color:  #173d6d7a;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -58,14 +58,14 @@ span {
     right: 10px;
 }
 .main .card p {
-    color: #585858;
+    color: #ffffff;
     font-size: 17px;
 }
 .main .card:hover {
     background-color: #2a588f7a;
     transform: translateY(10px);
 }
-.main-bottom{
+.main-bottom {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -73,11 +73,37 @@ span {
     padding: 0 20px;
     margin: auto;
 }
-.search-box{
+.search-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #dddedf;
+}
+.search-box img {
+    width: 24px;
+    cursor: pointer;
+}
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    color: #585858;
+    caret-color: #ff270b;
+}
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main .bottom-info{
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.493);
 }
